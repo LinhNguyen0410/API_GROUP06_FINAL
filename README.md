@@ -12,3 +12,5 @@ Di chuyển vào thư mục backend thực hiện lệnh npm install để tải
 # Bước 4.
 Chạy đường dẫn http://localhost:8082/ trên trình duyệt
 
+# API DOCUMENTATION
+https://documenter.getpostman.com/view/15094566/TzXtJLWc?fbclid=IwAR10Zmb8q4RpUZIvp7lN7Lz9tpuvwxiSXBc8UhZpoKUgcyMqN5DbbzSy4qc#3c8ab4d9-39f6-4ed6-885d-a53a9808578a
