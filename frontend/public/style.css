@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   /* font-family: "Poppins", sans-serif;*/
+     font-family: "Yellowtail", cursive;
+}
+
+html {
+    font-size: 65.5%;
+    /* 62.5% = 10px = 1rem */
+}
+
+#wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+    /* background-color: rgb(218, 192, 192); */
+}
+
+
+/* css progress timeline */
+
+.progress {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 20px;
+}
+
+.progress__timeline {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.progress__timeline-line {
+    flex: 1 1 auto;
+    height: 6px;
+    background: #aaa;
+    margin-top: 21px;
+}
+
+.progress__timeline-line--completed {
+    background: rgb(206, 17, 17);
+}
+
+.progress__timeline-line--no-completed {
+    background: #aaa;
+}
+
+.progress__timeline-index {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    color: #aaa;
+    font-size: 1.1rem;
+    font-weight: 600;
+    box-shadow: inset 0 0 0 2px #aaa;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.progress__timeline-index--completed {
+    background-color: rgb(241, 255, 41);
+    color: rgb(119, 11, 11);
+    box-shadow: inset 0 0 0 7px rgb(19, 102, 17);
+}
+
+.progress__timeline-label {
+    font-size: 1.5rem;
+}
+
+.progress__timeline-index--no-completed {}
+
+
+/* css progress timeline */
+
+
+/* Note */
+
+.note {
+    width: 100%;
+    display: flex;
+    background-color: rgb(186, 219, 247);
+    border-radius: 8px;
+    padding: 16px 17px;
+    margin-top: 14px;
+    align-items: center;
+}
+
+.note-label {
+    font-size: 1.4rem;
+    color: rgb(31, 119, 131);
+    font-weight: 600;
+}
+
+.note-content {
+    font-size: 1.3rem;
+    margin-left: 3px;
+    color: rgb(38, 122, 148);
+}
+
+
+/* Note */
+
+
+/* Personal - Info */
+
+.personal-info__title {
+    font-size: 1.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(42, 99, 163);
+    display: block;
+    margin: 10px 0;
+}
+
+.personal-info--seperate {
+    width: 100%;
+    height: 2px;
+    display: block;
+    background-color: #ccc;
+    margin-bottom: 20px;
+}
+
+.personal-info {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+
+.wrap-input {
+    margin-top: 13px;
+}
+
+.personal-info__col1 {
+    width: 30%;
+}
+
+.personal-info__col2 {
+    width: 30%;
+}
+
+.personal-info__col3 {
+    width: 30%;
+ 
+}
+
+.personal-info__input {
+    margin-top: 5px;
+    position: relative;
+}
+
+.personal-info__input-label {
+    display: block;
+    font-size: 1.4rem;
+    /* margin-top: 5px; */
+}
+
+.personal-info__input select {
+    cursor: pointer;
+}
+
+.personal-info__input input,
+select {
+    width: 100%;
+    height: 37px;
+    border-radius: 4px;
+    padding-left: 5px;
+    padding-right: 40px;
+    outline-color: rgb(139, 139, 139);
+    font-weight: 600;
+}
+
+.personal-info__input i {
+    font-size: 1.4rem;
+    padding: 9.5px 10px;
+    background-color: #aaa;
+    position: absolute;
+    top: 2px;
+    right: 1px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.poster{
+width:100%;
+height:100%;
+border-radius:5px
+}
+.btnSave{
+    padding: 10px 20px;
+    margin-top: 30px;
+    display: flex;
+    margin-left: auto;
+    font-size: 13px;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+.btnSave:hover{
+    background-color: green;
+}
+.personal-info__input input{
+  font-size:14px;
+  font-weight:normal;
+}
+.messageUpdate{
+    padding:20px 10px;
+    color:#008000 ;
+    font-size:14px;
+    margin-top:40px;
+    text-align:center;
+    }
+    .messageError{ padding:20px 10px;
+    color:red ;
+    font-size:14px;
+    margin-top:40px;
+    text-align:center;}
+/* Personal - Info */
