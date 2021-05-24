@@ -6,7 +6,7 @@ Vue.use(Router);
 export default new Router({
     mode: "history",
     routes: [{
-            path: "/students-list",
+            path: "/",
             alias: "/students-list",
             name: "students",
             component: () =>
