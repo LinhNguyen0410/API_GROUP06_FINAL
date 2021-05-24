@@ -22,7 +22,7 @@ Tìm Kiếm
 </div>
 </div>
 <div class="col-md-6">
-<h4>Đã đăng ký</h4>
+<h4>Đã đăng ký <i class="fas fa-check-circle check"></i></h4>
 <ul class="list-group">
 <li
 class="list-group-item"
@@ -231,6 +231,7 @@ margin: auto;
   .fstext{
   font-size:14px
   }
-  .psRight{
+  .check{
+    color:green;
   }
 </style>
